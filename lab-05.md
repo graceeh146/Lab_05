@@ -1,7 +1,7 @@
-Lab 05 - La Quinta is Spanish for next to Denny’s, Pt. 2
+Lab 05 - Wrangling spatial data
 ================
-Insert your name here
-Insert date here
+Enhui Wang
+2025.02.10
 
 ### Load packages and data
 

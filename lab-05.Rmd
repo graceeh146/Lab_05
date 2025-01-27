@@ -1,7 +1,7 @@
 ---
-title: "Lab 05 - La Quinta is Spanish for next to Denny's, Pt. 2"
-author: "Insert your name here"
-date: "Insert date here"
+title: "Lab 05 - Wrangling spatial data"
+author: "Enhui Wang"
+date: "2025.02.10"
 output: github_document
 ---
 
