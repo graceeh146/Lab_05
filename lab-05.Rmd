@@ -125,6 +125,7 @@ ggplot(dn_lq_ak_mindist, aes(x = closest)) +
     y = "Density"
   )
 ```
+
 ### Exercise 9
 The closest Denny’s and La Quinta pairing is 1.779 km. The distribution is positively skewed. 
 ```{r}
@@ -220,8 +221,10 @@ ggplot(dn_lq_tx_mindist, aes(x = closest)) +
     y = "Density"
   ) 
 ```
+
 ### Exercise 12
 I choose Arizona for this exercise. The closest Denny’s and La Quinta pairing is 0.021 km. The distribution is positively skewed, and the most distances are concentrated near the lower range. Overall, Denny’s and La Quinta locations in Arizona are located very close to each other.
+
 ```{r}
 #filter Denny’s and La Quinta Data Frames for Arizona
 dn_az <- dennys %>%
@@ -267,5 +270,7 @@ ggplot(dn_lq_az_mindist, aes(x = closest)) +
     y = "Density"
   ) 
 ```
-#Exercise 13
+
+### Exercise 13
+
 Mitch Hedberg’s joke most likely to hold true in Texas. Because the minimum distance is 0.016 km, suggesting the locations overlap with each other. According to the visualization, the distribution is relatively highly positively skewed in Texas compared to other states, suggesting the majority of Denny's and La Quinta locations are close to each other. 
