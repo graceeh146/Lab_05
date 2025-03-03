@@ -110,8 +110,6 @@ haversine <- function(long1, lat1, long2, lat2, round = 3) {
 }
 ```
 
-…
-
 ### Exercise 6
 
 ``` r
@@ -196,9 +194,12 @@ ggplot(dn_lq_ak_mindist, aes(x = closest)) +
     ## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
     ## generated.
 
-![](lab-05_files/figure-gfm/unnamed-chunk-8-1.png)<!-- --> \### Exercise
-9 The closest Denny’s and La Quinta pairing is 1.779 km. The
-distribution is positively skewed.
+![](lab-05_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+
+### Exercise 9
+
+The closest Denny’s and La Quinta pairing is 1.779 km. The distribution
+is positively skewed.
 
 ``` r
 #filter Denny’s and La Quinta Data Frames for NC
@@ -311,12 +312,14 @@ ggplot(dn_lq_tx_mindist, aes(x = closest)) +
   ) 
 ```
 
-![](lab-05_files/figure-gfm/unnamed-chunk-10-1.png)<!-- --> \###
-Exercise 12 I choose Arizona for this exercise. The closest Denny’s and
-La Quinta pairing is 0.021 km. The distribution is positively skewed,
-and the most distances are concentrated near the lower range. Overall,
-Denny’s and La Quinta locations in Arizona are located very close to
-each other.
+![](lab-05_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+
+### Exercise 12
+
+I choose Arizona for this exercise. The closest Denny’s and La Quinta
+pairing is 0.021 km. The distribution is positively skewed, and the most
+distances are concentrated near the lower range. Overall, Denny’s and La
+Quinta locations in Arizona are located very close to each other.
 
 ``` r
 #filter Denny’s and La Quinta Data Frames for Arizona
@@ -369,8 +372,11 @@ ggplot(dn_lq_az_mindist, aes(x = closest)) +
   ) 
 ```
 
-![](lab-05_files/figure-gfm/unnamed-chunk-11-1.png)<!-- --> \#Exercise
-13 Mitch Hedberg’s joke most likely to hold true in Texas. Because the
+![](lab-05_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+
+\#Exercise 13
+
+Mitch Hedberg’s joke most likely to hold true in Texas. Because the
 minimum distance is 0.016 km, suggesting the locations overlap with each
 other. According to the visualization, the distribution is relatively
 highly positively skewed in Texas compared to other states, suggesting
